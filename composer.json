@@ -1,0 +1,22 @@
+{
+    "name": "hodoor/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Aleksei Klimchuk",
+            "email": "hodoor6@yandex.ua"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "hodoor6\\parser\\": "src/"
+        }
+
+    },
+    "minimum-stability": "stable"
+}
