@@ -17,4 +17,11 @@ class Parser implements ParserInterface
         // delete last elements array
        return  array_pop($res);
     }
+
+    public function tagOutput($tags){
+        $result = implode(" ",$tags);
+        echo $result;
+    }
+
+
 }
