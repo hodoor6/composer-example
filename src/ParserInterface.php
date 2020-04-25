@@ -1,4 +1,5 @@
 <?php
+
 namespace hodoor\parser;
 /**
  * @author Aleksey Klimchuk <hodoor6@yandex.ua>

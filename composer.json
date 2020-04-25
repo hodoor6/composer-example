@@ -14,9 +14,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "hodoor6\\parser\\": "src/"
+            "hodoor\\parser\\": "src/"
         }
-
     },
     "minimum-stability": "stable"
 }
